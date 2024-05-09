@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BE432324-BB86-48D0-BC7D-CC225A1D1851}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicProject1</RootNamespace>
+    <RootNamespace>BasicClassAndConstructor</RootNamespace>
     <AssemblyName>BasicProject1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BasicProject1.ConstructorProgram</StartupObject>
+    <StartupObject>BasicClassAndConstructor.StaticConstructor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopyConstructor.cs" />
+    <Compile Include="explicitConstructor.cs" />
     <Compile Include="ConstructorProgram.cs" />
     <Compile Include="FirstProgram.cs" />
+    <Compile Include="ParameterisedConstructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

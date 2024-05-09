@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicProject1
+namespace BasicClassAndConstructor
 {
     // 2. Default/Implicit Constructor program
     internal class ConstructorProgram

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicProject1
+namespace BasicClassAndConstructor
 {
     // 1.Basic Program of C#
     internal class FirstProgram
