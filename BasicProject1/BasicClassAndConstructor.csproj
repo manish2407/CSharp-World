@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BasicClassAndConstructor.ExecutionClass</StartupObject>
+    <StartupObject>BasicClassAndConstructor.StaticAndNonStaticConstructor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="NeedOfConstructor.cs" />
     <Compile Include="ParameterisedConstructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticAndNonStaticConstructor.cs" />
     <Compile Include="StaticConstructor.cs" />
   </ItemGroup>
   <ItemGroup>
