@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Acess-Specifiers", "2-Ace
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{2A42F1EA-3713-4205-8014-4F0F70954414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Variables.csproj", "{BFE21DE8-599B-448D-8EBE-E3533965FA63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE21DE8-599B-448D-8EBE-E3533965FA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE21DE8-599B-448D-8EBE-E3533965FA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE21DE8-599B-448D-8EBE-E3533965FA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE21DE8-599B-448D-8EBE-E3533965FA63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{BE432324-BB86-48D0-BC7D-CC225A1D1851} = {0FE6F84D-968C-4AA5-AA42-06F446A6925C}
 		{05BC9EAA-8E4B-4564-9567-237D509DC418} = {049715FC-1BCB-4DE2-B14A-81CB9EEA793B}
 		{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48} = {049715FC-1BCB-4DE2-B14A-81CB9EEA793B}
+		{BFE21DE8-599B-448D-8EBE-E3533965FA63} = {2A42F1EA-3713-4205-8014-4F0F70954414}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2807546-A368-46CB-B23F-8E79F3A62555}
