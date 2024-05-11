@@ -4,29 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BE432324-BB86-48D0-BC7D-CC225A1D1851}</ProjectGuid>
+    <ProjectGuid>{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AccessSpecifiers</RootNamespace>
-    <AssemblyName>BasicProject1</AssemblyName>
+    <RootNamespace>DifferentProjectForAccessSpecifiers</RootNamespace>
+    <AssemblyName>DifferentProjectForAccessSpecifiers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,10 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>DifferentProjectForAccessSpecifiers.ProtectedInternalAccessSpecifiers</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AccessSpecifiers">
+      <HintPath>..\AccessSpecifiers\bin\Debug\AccessSpecifiers.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,31 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CopyConstructor.cs" />
-    <Compile Include="explicitConstructor.cs" />
-    <Compile Include="ConstructorProgram.cs" />
-    <Compile Include="FirstProgram.cs" />
-    <Compile Include="NeedOfConstructor.cs" />
-    <Compile Include="ParameterisedConstructor.cs" />
+    <Compile Include="InternalAccessSpecifiers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticAndNonStaticConstructor.cs" />
-    <Compile Include="StaticConstructor.cs" />
-    <Compile Include="VariableInstanceAndReferenceOfClass.cs" />
+    <Compile Include="ProtectedInternalAccessSpecifiers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
