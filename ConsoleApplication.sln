@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Inheritance", "4-Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "InheritanceClass\Inheritance.csproj", "{0C547292-0982-46CF-8BB9-394860E1F225}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Method Overloading", "5-Method Overloading", "{2BBC79B8-F50D-45D6-812D-BB1E4BAFEC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{725F1249-4401-4FE4-8B7D-449E200C953A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{0C547292-0982-46CF-8BB9-394860E1F225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C547292-0982-46CF-8BB9-394860E1F225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C547292-0982-46CF-8BB9-394860E1F225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725F1249-4401-4FE4-8B7D-449E200C953A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F1249-4401-4FE4-8B7D-449E200C953A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F1249-4401-4FE4-8B7D-449E200C953A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F1249-4401-4FE4-8B7D-449E200C953A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{7F86C3FF-6CDA-49B6-9416-9AC0525C1C48} = {049715FC-1BCB-4DE2-B14A-81CB9EEA793B}
 		{BFE21DE8-599B-448D-8EBE-E3533965FA63} = {2A42F1EA-3713-4205-8014-4F0F70954414}
 		{0C547292-0982-46CF-8BB9-394860E1F225} = {44807549-C126-4993-BD32-C7B9B0B59B16}
+		{725F1249-4401-4FE4-8B7D-449E200C953A} = {2BBC79B8-F50D-45D6-812D-BB1E4BAFEC73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2807546-A368-46CB-B23F-8E79F3A62555}
