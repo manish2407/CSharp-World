@@ -17,5 +17,9 @@ namespace Method_Overriding
         {
             Console.WriteLine("Parent's test method is called");
         }
+        public virtual void OverridingFuntion()
+        {
+            Console.WriteLine("Parent's overridden method is called");
+        }
     }  
 }

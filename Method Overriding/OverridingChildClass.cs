@@ -12,9 +12,14 @@ namespace Method_Overriding
             Console.WriteLine("Child's show method is called");
         }
 
-        public void Test(string s)
+        public  void Test(string s)
         {
-           Console.WriteLine("Parent's test method is called");
+           Console.WriteLine("Child's test method is called");
+        }
+
+        public override void OverridingFuntion()
+        {
+            Console.WriteLine("Child's overridden method is called");
         }
         static void Main(string[] args)
         {
@@ -24,6 +29,7 @@ namespace Method_Overriding
             obj.show(2);
             obj.Test();
             obj.Test("hello");
+            obj.OverridingFuntion();
             Console.ReadLine();
         }
     }
