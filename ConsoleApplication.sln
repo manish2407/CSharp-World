@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Method Overriding", "6-Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overriding", "Method Overriding\Method Overriding.csproj", "{ECDB5CDC-AA96-42B8-9FDB-E26C603B1347}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Method Hiding", "Method Hiding", "{C5919D52-CAF1-4DCE-AAB7-5DC93F98FFB0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7-Method Hiding", "7-Method Hiding", "{C5919D52-CAF1-4DCE-AAB7-5DC93F98FFB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Hiding", "Method Hiding\Method Hiding.csproj", "{9DCD7B51-E241-4F23-9314-8875AEE85F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8-Operator Overloading", "8-Operator Overloading", "{59EF0615-CA13-4FD6-86CC-42E3939D0A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{E68A526C-E440-4BE8-ADAF-3B1E5890E697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{9DCD7B51-E241-4F23-9314-8875AEE85F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DCD7B51-E241-4F23-9314-8875AEE85F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DCD7B51-E241-4F23-9314-8875AEE85F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68A526C-E440-4BE8-ADAF-3B1E5890E697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68A526C-E440-4BE8-ADAF-3B1E5890E697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68A526C-E440-4BE8-ADAF-3B1E5890E697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68A526C-E440-4BE8-ADAF-3B1E5890E697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +92,7 @@ Global
 		{725F1249-4401-4FE4-8B7D-449E200C953A} = {2BBC79B8-F50D-45D6-812D-BB1E4BAFEC73}
 		{ECDB5CDC-AA96-42B8-9FDB-E26C603B1347} = {51982B6B-E40D-41B7-8279-16D384128A62}
 		{9DCD7B51-E241-4F23-9314-8875AEE85F5E} = {C5919D52-CAF1-4DCE-AAB7-5DC93F98FFB0}
+		{E68A526C-E440-4BE8-ADAF-3B1E5890E697} = {59EF0615-CA13-4FD6-86CC-42E3939D0A81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2807546-A368-46CB-B23F-8E79F3A62555}
