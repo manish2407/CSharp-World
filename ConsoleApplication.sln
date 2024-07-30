@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesInC#", "Propertie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerEntityProject", "CustomerEntityProject\CustomerEntityProject.csproj", "{76A08CAC-D4E3-4A1B-A9A6-D11CB2947354}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-Indexers", "14-Indexers", "{F213A059-0720-4762-83E6-48128705DFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{CF2408FE-DB73-4702-A21D-965848E84870}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +135,10 @@ Global
 		{76A08CAC-D4E3-4A1B-A9A6-D11CB2947354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76A08CAC-D4E3-4A1B-A9A6-D11CB2947354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76A08CAC-D4E3-4A1B-A9A6-D11CB2947354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2408FE-DB73-4702-A21D-965848E84870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2408FE-DB73-4702-A21D-965848E84870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2408FE-DB73-4702-A21D-965848E84870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2408FE-DB73-4702-A21D-965848E84870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +160,7 @@ Global
 		{D8EDA741-193A-4E2A-9BD4-428FE33702E3} = {CA89F605-E319-493E-8A1E-F00085C5E588}
 		{C8079CC3-0050-477D-8164-ADF456831AF2} = {92FC9AEE-D74C-4ED7-8D43-8AC569A52823}
 		{76A08CAC-D4E3-4A1B-A9A6-D11CB2947354} = {92FC9AEE-D74C-4ED7-8D43-8AC569A52823}
+		{CF2408FE-DB73-4702-A21D-965848E84870} = {F213A059-0720-4762-83E6-48128705DFD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2807546-A368-46CB-B23F-8E79F3A62555}
