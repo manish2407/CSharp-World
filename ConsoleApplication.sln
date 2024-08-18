@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-Exceptions", "17-Excepti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{7EBE606B-48C7-4F74-9D1B-BB76772FB0D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18-MultiThreading", "18-MultiThreading", "{135545BC-6486-4531-A26D-38A4FE3F1E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{E55A3C64-62D2-49C6-99AF-9F504F438A55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +191,10 @@ Global
 		{7EBE606B-48C7-4F74-9D1B-BB76772FB0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EBE606B-48C7-4F74-9D1B-BB76772FB0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EBE606B-48C7-4F74-9D1B-BB76772FB0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55A3C64-62D2-49C6-99AF-9F504F438A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A3C64-62D2-49C6-99AF-9F504F438A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A3C64-62D2-49C6-99AF-9F504F438A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A3C64-62D2-49C6-99AF-9F504F438A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +224,7 @@ Global
 		{DE3C8676-3A0E-45C1-80FF-0EFE2017F368} = {EB75DDEC-5A5B-4571-B410-0CAC4140FF4A}
 		{E3796F9D-EA66-4595-BFFF-D81CE6D47B75} = {D34D6625-25BF-422D-8E23-60B8AC0F3F3C}
 		{7EBE606B-48C7-4F74-9D1B-BB76772FB0D4} = {39960E63-315B-4C14-A97A-582352C5996D}
+		{E55A3C64-62D2-49C6-99AF-9F504F438A55} = {135545BC-6486-4531-A26D-38A4FE3F1E4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2807546-A368-46CB-B23F-8E79F3A62555}
