@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MultiThreading.Threadconstructor</StartupObject>
+    <StartupObject>MultiThreading.ThreadPerformance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JoinMethod.cs" />
     <Compile Include="MultiThreading.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Threadconstructor.cs" />
+    <Compile Include="ThreadLocking.cs" />
+    <Compile Include="ThreadPerformance.cs" />
+    <Compile Include="ThreadPriorities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
