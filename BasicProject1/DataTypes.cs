@@ -61,6 +61,69 @@ namespace AccessSpecifiers
             Console.WriteLine("Unsinged short: " + us);
             Console.WriteLine("Unsinged long: " + ul);
 
+            sbyte sa = 126;
+
+            // sbyte is 8 bit 
+            // singned value
+            Console.WriteLine(sa);
+
+            sa++;
+            Console.WriteLine(sa);
+
+            // It overflows here because
+            // byte can hold values 
+            // from -128 to 127
+            sa++;
+            Console.WriteLine(sa);
+
+            // Looping back within 
+            // the range
+            sa++;
+            Console.WriteLine(sa);
+
+            //Operation on bytes
+            byte ba = 0;
+
+            // byte is 8 bit 
+            // unsigned value
+            Console.WriteLine(ba);
+
+            ba++;
+            Console.WriteLine(ba);
+
+            ba = 254;
+
+            // It overflows here because
+            // byte can hold values from
+            // 0 to 255
+            ba++;
+            Console.WriteLine(ba);
+
+            // Looping back within the range
+            ba++;
+            Console.WriteLine(ba);
+
+            //boolean Operation
+            bool bb = true;
+            if (bb == true)
+                Console.WriteLine("Hi Geek");
+
+            string str = "Geeks";
+
+            //append in a
+            str += "for";
+            str = str + "Geeks";
+            Console.WriteLine(a);
+
+            // declare object obj
+            object obj;
+            obj = 20;
+            Console.WriteLine(obj);
+
+            // to show type of object
+            // using GetType()
+            Console.WriteLine(obj.GetType());
+
             Console.ReadLine();
         }
     }
